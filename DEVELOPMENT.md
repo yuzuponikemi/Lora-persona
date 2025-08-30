@@ -1,6 +1,6 @@
 # Development Workflow Guide
 
-## 🖥️ Multi-Environment Development Strategy
+## 🖥️ Multi Environment Development Strategy
 
 This project is designed to work seamlessly across two environments:
 - **Laptop (Development)**: Code development, data processing, testing
