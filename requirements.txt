@@ -1,0 +1,35 @@
+# Core ML/AI Libraries
+torch>=2.0.0
+torchvision
+torchaudio
+transformers>=4.35.0
+datasets>=2.14.0
+tokenizers>=0.14.0
+
+# LoRA and Fine-tuning
+peft>=0.6.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+trl>=0.7.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn
+matplotlib
+seaborn
+
+# Utilities
+tqdm
+sentencepiece
+protobuf
+psutil
+
+# Jupyter and Development
+jupyter
+ipykernel
+ipywidgets
+
+# Optional: For advanced features
+# wandb  # For experiment tracking
+# tensorboard  # For training visualization

@@ -1,0 +1,146 @@
+# ==============================================================================
+# LoRA Persona Training - Git Ignore File
+# ==============================================================================
+
+# Sample Data and Personal Data
+sampledata/
+data/
+training_data/
+*.json
+*.csv
+*.txt
+*.log
+
+# Exclude specific files that should be tracked
+!requirements.txt
+!README.md
+!*.md
+!ENVIRONMENT.md
+!DEVELOPMENT.md
+!.copilot-instructions.md
+!setup_env.py
+!start.bat
+
+# Training Outputs and Models
+lora-output*/
+lora-persona-model*/
+models/
+checkpoints/
+outputs/
+logs/
+runs/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python Cache and Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyTorch and ML Model Files
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+*.pickle
+
+# HuggingFace Cache
+.cache/
+transformers_cache/
+huggingface_hub/
+
+# CUDA and GPU Related
+*.cu
+*.cuh
+
+# Weights & Biases
+wandb/
+
+# TensorBoard
+tensorboard_logs/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Configuration Files with Sensitive Data
+config.json
+secrets.json
+.env
+.env.local
+.env.*.local
+
+# Large Files and Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Log Files
+*.log
+logs/
